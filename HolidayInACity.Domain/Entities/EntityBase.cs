@@ -1,8 +1,7 @@
-﻿namespace HolidayInACity.Domain.Entities
+﻿namespace HolidayInACity.Domain.Entities;
+
+public class EntityBase
 {
-    public class EntityBase
-    {
-        [Key]
-        public int Id { get; set; }
-    }
+    [Key]
+    public int Id { get; set; }
 }

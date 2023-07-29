@@ -1,8 +1,4 @@
-﻿using HolidayInACity.Presentation.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-
-namespace HolidayInACity.Presentation.Controllers
+﻿namespace HolidayInACity.Presentation.Controllers
 {
     public class HomeController : Controller
     {
