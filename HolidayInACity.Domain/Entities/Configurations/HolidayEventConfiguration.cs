@@ -19,7 +19,7 @@ public class HolidayEventConfiguration : IEntityTypeConfiguration<HolidayEvent>
                .HasMaxLength(500);
 
         builder.Property(x => x.Price)
-               .HasPrecision(4, 2)
+               .HasPrecision(6, 2)
                .IsRequired();
     }
 }
